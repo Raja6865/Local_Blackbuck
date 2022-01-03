@@ -31,4 +31,4 @@ with open('/Users/thottarajasekar/Downloads/sales_codes.csv', 'r') as read_obj:
             with open("success_map.csv",'w') as file:
                 file.write(output)
         elif r.status_code != 200:
-            print("response data not loaded")
+            print("Plan id mapping not done since response code error")
